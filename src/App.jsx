@@ -4,13 +4,11 @@ import Login from "./components/Login/LogIn"
 
 function App() {
 
-  console.log("test")
   
   return (
-    <>
-
+    
       <Login />
-    </>
+
   )
 }
 
