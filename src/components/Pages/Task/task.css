@@ -1,5 +1,9 @@
 #tasks{
     padding: 20px 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #tasks .wrapper_list{
@@ -8,6 +12,8 @@
     height: 100%;
     padding: 10px;
     box-shadow: 0 2px 5px #dbdbdb;
+
+
 }
 
 #tasks .wrapper_list h2{
@@ -17,7 +23,7 @@
 }
 
 #tasks .card{
-    background-color: #fff;
+    background-color: rgba(1, 7, 10, 0.219);
     border: var(--global-border);
     border-radius: 12px;
     margin-bottom: 0.8rem;

@@ -6,7 +6,7 @@ export default function Task ( ){
         <>
         <Header/>
         <main id="tasks">
-            <section className="wrapper_list">
+            <section className="wrapper_list col-10">
                 <div className="list_header">
                 <h2 >My tasks</h2>
                 </div>
