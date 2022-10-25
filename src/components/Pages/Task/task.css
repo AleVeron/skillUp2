@@ -1,0 +1,46 @@
+#tasks{
+    padding: 20px 15px 5px;
+}
+
+#tasks .wrapper_list{
+    background-color: #fafafa98;
+    border-radius:15px;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px #dbdbdb;
+}
+
+#tasks .wrapper_list h2{
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+#tasks .card{
+    background-color: #fff;
+    border: var(--global-border);
+    border-radius: 12px;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 1.1rem 8.9rem;
+    position: relative;
+    transition: transform 0.2 ease-out;
+}
+
+#tasks .card .close{
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 10px;
+}
+
+#tasks .card h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+}
+
+#tasks .card button{
+    width: 100px;
+    margin-bottom:5px;
+}

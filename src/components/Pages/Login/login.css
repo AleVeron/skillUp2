@@ -61,7 +61,13 @@
     --input-padding-y: .75rem;
   }
   
-  
+  .card-body{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around  ;
+  }
+
   .card-signin {
     border: 0;
     border-radius: 0rem;
